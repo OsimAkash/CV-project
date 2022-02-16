@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:antiquewhite;
+    font-family: 'Redressed', cursive;
+}
+.container{
+    max-width: 10000px;
+    background-color: honeydew ;
+    margin: 0 auto;
+    padding: 30px;
+}
+header{
+    color: #000;
+}
+.good{
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius:50%;
+    float: left;
+}
+.Not{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #111193;
+
+}
+.new{
+    float: right;
+    pad: 30px;
+}
+.new a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: bold;
+
+}
+.new a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 90%;
+    margin: 20px auto;
+    border-bottom: none ;
+}
+
+/*--------------
+Personal section strat 
+-----------------*/
+#personal-section{
+background-attachment: fixed;
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+ 
+}
+.right-div{
+    width: 63%;
+    float: left;
+
+}
+#personal-section h3{
+   max-width: none ;
+    
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.edu-template-left{
+    float:left;
+    width: 45%;
+
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+    
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 90%;
+    margin: 20px auto;
+}
+.text{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.text a{
+    color: white;
+   margin: 20px;
+}
+.text p{
+    color: white;
+    margin-top: 20px;
+}
+.fa-address-book{
+   color:red;
+}
+svg{
+    width: 100px;
+}
